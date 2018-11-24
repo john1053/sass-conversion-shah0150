@@ -1,0 +1,8 @@
+@mixin columns($width, $float, $margin) {
+    width: $width;
+    float: $float;
+    margin-left: $margin;
+}
+    &:first-child {
+        border-left: 0;
+    }
